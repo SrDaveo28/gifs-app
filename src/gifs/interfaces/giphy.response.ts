@@ -84,14 +84,9 @@ export interface DownsizedSmall {
   mp4: string;
 }
 
-export enum Rating {
-  G = "g",
-  PG = "pg",
-}
+export type Rating = "G" | "PG" | "PG-13" | "R";
 
-export enum Type {
-  GIF = "gif",
-}
+export type Type = "gif";
 
 export interface User {
   avatar_url: string;
